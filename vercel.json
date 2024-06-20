@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://app.turso.tech/new"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/button",
+      "destination": "/button.svg"
+    }
+  ]
+}
