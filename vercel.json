@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "https://turso.tech"
+      "destination": "https://app.turso.tech/new"
     }
   ],
   "rewrites": [
