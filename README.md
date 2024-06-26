@@ -30,11 +30,9 @@ https://sqlite.new
 
 ### `type`
 
-Specify the type of database to create. The default is `empty`
+Specify `schema` as the `type` if you want to use multi-db schemas!
 
-* `empty` - Create an empty database
 * `schema` - Create a database with multi-db schema support
-* `dump` - Create a database from an existing SQLite dump
 
 ```markdown
 [![Create a database with Turso](https://sqlite.new/button)](https://sqlite.new?type=schema)
