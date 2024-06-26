@@ -40,12 +40,12 @@ Specify the type of database to create. The default is `empty`
 [![Create a database with Turso](https://sqlite.new/button)](https://sqlite.new?type=schema)
 ```
 
-### `dump_url`
+### `dump`
 
-If you set `dump`as the database type, you can pass the URL to the dump file using this parameter:
+If you set `dump` to an existing SQLite dump file you host, you can seed the new database using this:
 
 ```markdown
-[![Create a database with Turso](https://sqlite.new/button)](https://sqlite.new?type=dump&dump_url=https%3A%2F%2Fmysite.com%2Ffile.db)
+[![Create a database with Turso](https://sqlite.new/button)](https://sqlite.new?dump=https%3A%2F%2Fmysite.com%2Ffile.db)
 ```
 
 ### `name`
